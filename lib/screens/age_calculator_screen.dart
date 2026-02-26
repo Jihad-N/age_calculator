@@ -75,10 +75,12 @@ class _AgeCalculatorScreenState extends State<AgeCalculatorScreen> {
               TextField(
                 controller: _dateController,
                 readOnly: true,
+                style: TextStyle(color: Colors.white),
                 decoration: InputDecoration(
                   labelStyle: TextStyle(color: Colors.white),
                   labelText: "Date of Birth",
                   hintText: 'Select your date of birth',
+                 
                   suffixIcon: Icon(Icons.calendar_month, color: Colors.white),
                   border: OutlineInputBorder(),
                 ),
